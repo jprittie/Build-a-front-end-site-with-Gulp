@@ -1,17 +1,17 @@
 'use strict';
 
 // Load node modules/plugins
-var gulp = require('gulp'),
-  concat = require('gulp-concat'),
-  eslint = require('gulp-eslint'),
-  uglify = require('gulp-uglify'),
+   var gulp = require('gulp'),
+     concat = require('gulp-concat'),
+     eslint = require('gulp-eslint'),
+     uglify = require('gulp-uglify'),
   uglifycss = require('gulp-uglifycss'),
-  rename = require('gulp-rename'),
-  sass = require('gulp-sass'),
-  imagemin = require('gulp-imagemin'),
-  maps = require('gulp-sourcemaps'),
-  del = require('del'),
-  browserSync = require('browser-sync').create();
+     rename = require('gulp-rename'),
+       sass = require('gulp-sass'),
+   imagemin = require('gulp-imagemin'),
+       maps = require('gulp-sourcemaps'),
+        del = require('del'),
+browserSync = require('browser-sync').create();
 
 
 // Lint task
@@ -123,7 +123,7 @@ gulp.task('default', function(){
 gulp.task('serve', ['build'], function(){
   browserSync.init({
     server: {
-      baseDir: 'app'
+      baseDir: 'dist'
     }
   })
   // It will also start the watch task, which in turn will reload browser when changes are made to JS and SCSS files
