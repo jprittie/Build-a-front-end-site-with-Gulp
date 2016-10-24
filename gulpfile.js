@@ -132,8 +132,8 @@ gulp.task('serve', ['build'], function(){
 
 // Watch task
 gulp.task('watch', function(){
-  // Run concatScripts when JS files are updated
-  gulp.watch(['app/js/global.js', 'app/js/circle/*.js'], ['concatScripts']);
+  // Run scripts when JS files are updated
+  gulp.watch(['app/js/global.js', 'app/js/circle/*.js'], ['scripts']);
   // Run styles task when SCSS or SASS files are updated
   gulp.watch(['app/sass/*.scss', 'app/sass/**/*.sass', 'app/sass/**/**/*.sass'], ['styles']);
 });
