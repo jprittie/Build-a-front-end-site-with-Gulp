@@ -1,7 +1,7 @@
-##Use Gulp to build a front-end website
+## Use Gulp to build a front-end website
 *Project 8 of Treehouse Full Stack JavaScript course*
 
-###Project objectives:
+### Project objectives:
 The starting point for this project is a website with HTML, SCSS, JPEGs, PNGs and JavaScript files. Set up a Gulp build process to prepare the website for deployment. The build process must fulfill the following criteria:
 * Concatenate and minify the JavaScript files
 * Compile SCSS into CSS in a concatenated and minified file
@@ -9,7 +9,7 @@ The starting point for this project is a website with HTML, SCSS, JPEGs, PNGs an
 * Compress any JPEG or PNG files
 * All output for the build process should be in a dist folder for distribution or deployment.
 
-###Instructions:
+### Instructions:
 To complete this project, implement the User Stories below. Here are your user stories to get to the
 requested Minimum Viable Product:
 * As a developer, I should be able to run the `npm install` command to install all of the dependencies
